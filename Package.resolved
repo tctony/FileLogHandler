@@ -12,7 +12,7 @@
       },
       {
         "package": "SwiftLogFormatter",
-        "repositoryURL": "https://github.com/tctony/SwiftLogFormatter",
+        "repositoryURL": "https://github.com/tctony/SwiftLogFormatter.git",
         "state": {
           "branch": null,
           "revision": "7c8d7fb5c5e5551a9ae159c118696953f5040820",

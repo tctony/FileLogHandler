@@ -11,7 +11,7 @@ let package = Package(
             targets: ["FileLogHandler"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/tctony/SwiftLogFormatter", .exact("0.1.0")),
+        .package(url: "https://github.com/tctony/SwiftLogFormatter.git", .exact("0.1.0")),
     ],
     targets: [
         .target(
