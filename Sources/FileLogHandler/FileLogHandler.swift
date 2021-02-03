@@ -21,7 +21,7 @@ public final class FileLogFormatter: LogFormatter {
                        line: UInt) -> String {
         let message = self.inner.format(level: level, message: message, metadata: metadata, file: file, function: function, line: line)
 
-        return "\(self.dateFormatter.string(from: Date())) \(message)"
+        return "\(self.dateFormatter.string(from: Date())) \(message)\n"
     }
 }
 
